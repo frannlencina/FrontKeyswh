@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: #F2F2F2;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.boxes{
+    width: 100%;
+    top: 300px;
+}
+
+.boxes ul{
+  display:block;
+  width:100%;
+  height:inherit;
+}
+.boxes ul{
+  list-style-type:none;
+}
+.boxes li:nth-child(1)
+{
+  position:absolute;
+  left:25%;
+  rotate: -20deg;
+  top: 15rem;
+  height:200px;
+  width:200px;
+  
+}
+.boxes li:nth-child(2)
+{
+  position:absolute;
+  left:70%;
+  height:140px;
+  width:140px;
+  rotate: 30deg;
+  
+}
+.boxes li:nth-child(3)
+{
+  position:absolute;
+  left:20%;
+  top: -8rem;
+  height:170px;
+  rotate: 20deg;
+  width:170px;
+  
+}
+.boxes li:nth-child(4)
+{
+  position:absolute;
+  left:60%;
+  top: 20rem;
+  height:120px;
+  rotate: -30deg;
+  width:120px;
+  
+}
+
+@media only screen and (max-width: 600px)  {
+  .boxes{
+    left: -40px;
+  }
+  .boxes li  { 
+    width: 32% !important;
+  }
+}

@@ -1,0 +1,42 @@
+.perfilDropdown{
+    background-color: blue;
+    position: absolute;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+    .perfilDropdown{
+        width: 100%;
+        transform: translateY(50px);
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .perfilDropdown{
+        position: absolute;
+        width: 100%;
+        left: 105px;
+        transform: translateY(50px);
+        background-color: skyblue;
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .perfilDropdown{
+        transform: translateX(-50px);
+        transform: translateY(50px);
+        background-color: green;
+        max-width: 20rem
+    }
+}
+
+@media only screen and (min-width: 1565px) {
+    .perfilDropdown{
+        transform: translateX(-70px) !important;
+        transform: translateY(50px) !important;
+        max-width: 20rem
+    }
+}
